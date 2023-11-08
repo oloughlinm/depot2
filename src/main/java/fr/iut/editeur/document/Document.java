@@ -38,6 +38,10 @@ public class Document {
         effacer(0, texte.length()-1);
     }
 
+    public void inserer(int index, String insertion){
+        remplacer(index, index, insertion);
+    }
+
     @Override
     public String toString() {
         return this.texte;
