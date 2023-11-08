@@ -34,6 +34,11 @@ public class Document {
         remplacer(i, i1, "");
     }
 
+    public void clear() {
+        effacer(0, texte.length()-1);
+        ajouter("Y");
+    }
+
     @Override
     public String toString() {
         return this.texte;
