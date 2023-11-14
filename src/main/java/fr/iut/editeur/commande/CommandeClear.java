@@ -3,6 +3,12 @@ package fr.iut.editeur.commande;
 import fr.iut.editeur.document.Document;
 
 public class CommandeClear extends CommandeDocument{
+
+    /**
+     * initialize la commande
+     * @param document la destination
+     * @param parameters les attributs de la commande
+     */
     public CommandeClear(Document document, String[] parameters) {
         super(document, parameters);
     }

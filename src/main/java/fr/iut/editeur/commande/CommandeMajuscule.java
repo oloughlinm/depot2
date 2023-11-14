@@ -3,6 +3,12 @@ package fr.iut.editeur.commande;
 import fr.iut.editeur.document.Document;
 
 public class CommandeMajuscule extends CommandeDocument{
+
+    /**
+     * initialize la commande
+     * @param document la destination
+     * @param parameters les attributs de la commande
+     */
     public CommandeMajuscule(Document document, String[] parameters) {
         super(document, parameters);
     }

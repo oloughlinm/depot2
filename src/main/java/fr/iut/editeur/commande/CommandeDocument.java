@@ -8,6 +8,11 @@ public abstract class CommandeDocument implements Commande {
 
     protected String[]parameters;
 
+    /**
+     * initialize la commande
+     * @param document la destination
+     * @param parameters les attributs de la commande
+     */
     public CommandeDocument(Document document, String[] parameters) {
         this.document = document;
         this.parameters = parameters;

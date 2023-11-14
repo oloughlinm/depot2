@@ -3,6 +3,11 @@ package fr.iut.editeur.commande;
 import fr.iut.editeur.document.Document;
 
 public class CommandeMinuscule extends CommandeDocument{
+    /**
+     * initialize la commande
+     * @param document la destination
+     * @param parameters les attributs de la commande
+     */
     public CommandeMinuscule(Document document, String[] parameters) {
         super(document, parameters);
     }
